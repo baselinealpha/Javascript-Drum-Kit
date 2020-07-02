@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>DRUM KIT</header>
+    <main id="drum-kit">
+      <div data-key="65" class="drum-key">
+        <code>A</code>
+        <span><img src="https://img.icons8.com/windows/32/000000/tabal.png"/></span>
+      </div>
+      <div data-key="83" class="drum-key">
+        <code>S</code>
+        <span><img src="https://img.icons8.com/windows/32/000000/snare-drum-top.png"/></span>
+      </div>
+      <div data-key="68" class="drum-key">
+        <code>D</code>
+        <span><img src="https://img.icons8.com/windows/32/000000/drum-set.png"/></span>
+      </div>
+      <div data-key="70" class="drum-key">
+        <code>F</code>
+        <span><img src="https://img.icons8.com/windows/32/000000/drum-set.png"/></span>
+      </div>
+      <div data-key="71" class="drum-key">
+        <code>G</code>
+        <span><img src="https://img.icons8.com/windows/32/000000/drum-set.png"/></span>
+      </div>
+      <div data-key="72" class="drum-key">
+        <code>H</code>
+        <span><img src="https://img.icons8.com/windows/32/000000/applause.png"/></span>
+      </div>
+      <div data-key="74" class="drum-key">
+        <code>J</code>
+        <span><img src="https://img.icons8.com/windows/32/000000/timpani.png"/></span>
+      </div>
+      <div data-key="75" class="drum-key">
+        <code>K</code>
+        <span><img src="https://img.icons8.com/windows/32/000000/cymbals.png"/></span>
+      </div>
+    </main>
+    <audio data-key="65" src="drum-assets/boom.wav"></audio>
+    <audio data-key="83" src="drum-assets/snare.wav"></audio>
+    <audio data-key="68" src="drum-assets/kick.wav"></audio>
+    <audio data-key="70" src="drum-assets/hihat.wav"></audio>
+    <audio data-key="71" src="drum-assets/openhat.wav"></audio>
+    <audio data-key="72" src="drum-assets/clap.wav"></audio>
+    <audio data-key="74" src="drum-assets/tom.wav"></audio>
+    <audio data-key="75" src="drum-assets/ride.wav"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
